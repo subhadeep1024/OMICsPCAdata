@@ -1,10 +1,17 @@
 Package: OMICsPCAdata
 Type: Package
 Title: Supporting data for package OMICsPCA
-Version: 0.99.0
+Date: 21/08/2018
+Author: Subhadeep Das [aut, cre],
+        Dr. Sucheta Tripathy [ctb]
+Version: 0.99.1
+Depends: R (>= 3.5.0)
+Suggests: knitr, kableExtra, rmarkdown
+biocViews: RepositoryData, TechnologyData, ChIPSeqData, SequencingData, ExpressionData, ENCODE
 Author: Subhadeep Das
 Maintainer: Subhadeep Das <subhadeep1024@gmail.com>
 Description: Supporting data for package OMICsPCA
 License: GPL-3
 Encoding: UTF-8
+VignetteBuilder: knitr
 LazyData: true
