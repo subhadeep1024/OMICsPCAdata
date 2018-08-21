@@ -4,7 +4,7 @@ Title: Supporting data for package OMICsPCA
 Date: 21/08/2018
 Author: Subhadeep Das [aut, cre],
         Dr. Sucheta Tripathy [ctb]
-Version: 0.99.1
+Version: 0.99.2
 Depends: R (>= 3.5.0)
 Suggests: knitr, kableExtra, rmarkdown
 biocViews: RepositoryData, TechnologyData, ChIPSeqData, SequencingData, ExpressionData, ENCODE
