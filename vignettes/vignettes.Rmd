@@ -40,6 +40,11 @@ library(kableExtra)
 library(rmarkdown)
 library(knitr)
 ```
+```{r echo = FALSE}
+datalist <- data(package = "OMICsPCAdata")
+datanames <- datalist$results[,3]
+data(list = datanames)
+```
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(
