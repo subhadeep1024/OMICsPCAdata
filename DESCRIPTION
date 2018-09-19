@@ -14,4 +14,4 @@ Description: Supporting data for package OMICsPCA
 License: GPL-3
 Encoding: UTF-8
 VignetteBuilder: knitr
-LazyData: TRUE
+LazyData: FALSE
