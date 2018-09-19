@@ -59,7 +59,7 @@ knitr::opts_chunk$set(fig.pos = 'H')
 datalist <- data(package = "OMICsPCAdata")
 datanames <- datalist$results[,3]
 data(list = datanames)
-assays <- assays(MultiAssay)
+assays <- assays(multi_assay)
 ```
 
 # Overview
